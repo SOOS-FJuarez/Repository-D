@@ -1,4 +1,4 @@
-
+{
   "name": "manifest-npm-package-json",
   "version": "4.3.0",
   "description": "Excel Workbook Manager - Read and Write xlsx and csv Files.",
@@ -92,11 +92,19 @@
     "split",
     "pageSetup"
   ],
-
+  "dependencies": {
+  },
   "devDependencies": {
+    "mocha": "^7.2.0",
+    "prettier-eslint": "^11.0.0",
+    "prettier-eslint-cli": "^5.0.0",
+    "regenerator-runtime": "^0.13.7",
+    "sax": "^1.2.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
   },
   "bugs": {
     "url": "https://github.com/exceljs/exceljs/issues"
-  }, {
+  },
   "homepage": "https://github.com/exceljs/exceljs#readme"
 }
